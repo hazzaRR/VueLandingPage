@@ -21,8 +21,8 @@
   
         <div class="flex flex-col space-y-4">
           <a href="#" class="text-white hover:text-gray-300">Home</a>
-          <a href="#" class="text-white hover:text-gray-300">Treaments</a>
-          <a href="#" class="text-white hover:text-gray-300">About</a>
+          <a href="#" class="text-white hover:text-gray-300">Price List</a>
+          <a href="#" class="text-white hover:text-gray-300">Contact</a>
           <a href="#" class="text-white hover:text-gray-300">FAQ</a>
         </div>
         

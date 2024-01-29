@@ -1,12 +1,30 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Index from '../views/Index.vue';
 import NotFoundPage from '../views/NotFoundPage.vue';
+import FAQ from '../views/FAQ.vue'
+import Contact from '../views/Contact.vue'
+import PriceList from '../views/PriceList.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: Index,
+  },
+  {
+    path: '/faq',
+    name: 'FAQ',
+    component: FAQ,
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: Contact,
+  },
+  {
+    path: '/price-list',
+    name: 'priceList',
+    component: PriceList,
   },
   { 
   path: '/:pathMatch(.*)*',
