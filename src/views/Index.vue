@@ -1,13 +1,13 @@
 <template>  
     <section class="container flex flex-col items-center px-6 py-12 mx-auto lg:flex-row">
         <div class="lg:w-1/2">
-          <h1 class="max-w-xl font-serif text-4xl font-medium tracking-wide text-[#243458] capitalize md:text-6xl ">A beatiful adventure awaits</h1>
+          <h1 class="max-w-xl font-serif text-4xl font-medium tracking-wide text-[#243458] capitalize md:text-6xl ">Beauty awaits</h1>
   
           <p class="max-w-lg mt-4 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. At magnam voluptatibus perferendis odit optio.</p>
           
           <div class="mt-6 sm:flex sm:items-center">
             <a href="#" class="bg-[#243458] hover:bg-[#243458]/80 duration-300 transition-colors border-2 border-[#243458] px-6 block text-center py-3 uppercase text-sm font-bold leading-4 tracking-widest text-white ">
-              View Treatments
+              Price List
             </a>
   
             <a href="#" class="border-2 text-sm duration-300 transition-colors hover:bg-[#243458] hover:text-white font-bold leading-4 mt-4 sm:mt-0 tracking-widest text-[#243458] sm:mx-4 border-[#243458] px-6 block text-center py-3 uppercase">
@@ -28,14 +28,14 @@
           
           <div class="mt-8 lg:w-1/2 lg:mx-6 lg:mt-0">
             <h3 class="font-serif text-2xl text-white capitalize md:text-4xl lg:text-5xl">
-              Discover yourself with nature
+              Discover your beauty
             </h3>
   
             <p class="mt-4 text-gray-200 ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, nisi fugiat dicta impedit sed quisquam quas veritatis consectetur neque saepe, autem facilis dolore officiis minima explicabo perferendis ab porro magnam!
             </p>
             
-            <a class="inline-flex px-6 py-3 mt-6 text-white border-2 border-white hover:bg-[#475F45] duration-300 transition-colors" href="#">
+            <a class="inline-flex px-6 py-3 mt-6 text-white border-2 border-white hover:bg-[#335196] duration-300 transition-colors" href="#">
               Learn More
             </a>
           </div>
