@@ -34,6 +34,10 @@
               <router-link to="/price-list" class="font-medium text-white lg:hover:text-gray-400 lg:mx-4">
                   Price List
               </router-link>
+
+              <router-link to="/gallery" class="font-medium text-white lg:hover:text-gray-400 lg:mx-4">
+                  Gallery
+              </router-link>
     
               <router-link to="/contact" class="font-medium text-white lg:hover:text-gray-400 lg:mx-4">
                   Contact

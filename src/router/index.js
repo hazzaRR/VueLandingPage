@@ -4,6 +4,7 @@ import NotFoundPage from '../views/NotFoundPage.vue';
 import FAQ from '../views/FAQ.vue'
 import Contact from '../views/Contact.vue'
 import PriceList from '../views/PriceList.vue'
+import Gallery from '../views/Gallery.vue'
 
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
     path: '/price-list',
     name: 'priceList',
     component: PriceList,
+  },
+  {
+    path: '/gallery',
+    name: 'gallery',
+    component: Gallery,
   },
   { 
   path: '/:pathMatch(.*)*',

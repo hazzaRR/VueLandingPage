@@ -23,6 +23,7 @@
         <div class="flex flex-col space-y-4">
           <router-link to="/" class="text-white hover:text-gray-300">Home</router-link>
           <router-link to="/price-list" class="text-white hover:text-gray-300">Price List</router-link>
+          <router-link to="/gallery" class="text-white hover:text-gray-300">Gallery</router-link>
           <router-link to="/contact" class="text-white hover:text-gray-300">Contact</router-link>
           <router-link to="/faq" class="text-white hover:text-gray-300">FAQ</router-link>
         </div>
