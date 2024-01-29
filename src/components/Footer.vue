@@ -9,21 +9,22 @@
             </svg>
   
             <div class="mx-2 text-white">
-              <h3 class="font-medium tracking-widest uppercase">Kates Beauty Room</h3>
+              <!-- <h3 class="font-medium tracking-widest uppercase">Kates Beauty Room</h3> -->
+              <h3 class="font-medium tracking-widest uppercase text-[#F9EBA9]">Kates Beauty Room</h3>
               <p class="mt-1 text-xs italic leading-3 tracking-wide capitalize">Beauty Therapist</p>
             </div>
           </router-link>
   
           <p class="max-w-lg mt-6 leading-relaxed text-white ">
-            Offering Beauty therapy treatments... Including Facials, massage, waxing, manicure, pedicure, brow shaping/tinting....20 years experience
+            Professional Beauty Therapist with over 20 years of experience based in Lawford, Manningtree
           </p>
         </div>
   
         <div class="flex flex-col space-y-4">
-          <a href="#" class="text-white hover:text-gray-300">Home</a>
-          <a href="#" class="text-white hover:text-gray-300">Price List</a>
-          <a href="#" class="text-white hover:text-gray-300">Contact</a>
-          <a href="#" class="text-white hover:text-gray-300">FAQ</a>
+          <router-link to="/" class="text-white hover:text-gray-300">Home</router-link>
+          <router-link to="/price-list" class="text-white hover:text-gray-300">Price List</router-link>
+          <router-link to="/contact" class="text-white hover:text-gray-300">Contact</router-link>
+          <router-link to="/faq" class="text-white hover:text-gray-300">FAQ</router-link>
         </div>
         
         <div>

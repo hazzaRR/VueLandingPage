@@ -36,6 +36,7 @@
                     <p class="mt-2 text-sm text-gray-500 ">Come say hello at my salon.</p>
                     <p class="mt-2 text-sm text-[#243458] ">25 School Lane Lawford, Manningtree CO11 2HZ</p>
                 </div>
+                
 
                 <div>
                     <span class="inline-block p-3 text-[#243458] rounded-md bg-blue-100/80 ">
