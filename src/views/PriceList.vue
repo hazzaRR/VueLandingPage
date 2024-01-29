@@ -10,7 +10,7 @@
                 <div>
 
                     <div v-for="(treatmentCategory, categoryIndex) in treatments" :key="categoryIndex">
-                        <h1 class="text-2xl mt-6 font-semibold text-gray-800 lg:text-3xl">{{ treatmentCategory.category }}
+                        <h1 class="text-2xl mt-6 font-semibold v lg:text-3xl">{{ treatmentCategory.category }}
                         </h1>
                         <hr class="my-6 border-gray-200">
                         <div v-for="(treatment, index) in treatmentCategory.treatments" :key="index">

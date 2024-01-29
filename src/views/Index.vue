@@ -6,13 +6,13 @@
           <p class="max-w-lg mt-4 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. At magnam voluptatibus perferendis odit optio.</p>
           
           <div class="mt-6 sm:flex sm:items-center">
-            <a href="#" class="bg-[#243458] hover:bg-[#243458]/80 duration-300 transition-colors border-2 border-[#243458] px-6 block text-center py-3 uppercase text-sm font-bold leading-4 tracking-widest text-white ">
+            <router-link to="/price-list" class="bg-[#243458] hover:bg-[#243458]/80 duration-300 transition-colors border-2 border-[#243458] px-6 block text-center py-3 uppercase text-sm font-bold leading-4 tracking-widest text-white">
               Price List
-            </a>
+            </router-link>
   
-            <a href="#" class="border-2 text-sm duration-300 transition-colors hover:bg-[#243458] hover:text-white font-bold leading-4 mt-4 sm:mt-0 tracking-widest text-[#243458] sm:mx-4 border-[#243458] px-6 block text-center py-3 uppercase">
+            <router-link to="/contact" class="border-2 text-sm duration-300 transition-colors hover:bg-[#243458] hover:text-white font-bold leading-4 mt-4 sm:mt-0 tracking-widest text-[#243458] sm:mx-4 border-[#243458] px-6 block text-center py-3 uppercase">
               Contact
-            </a>
+            </router-link>
           </div>
         </div>
   
@@ -35,9 +35,9 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, nisi fugiat dicta impedit sed quisquam quas veritatis consectetur neque saepe, autem facilis dolore officiis minima explicabo perferendis ab porro magnam!
             </p>
             
-            <a class="inline-flex px-6 py-3 mt-6 text-white border-2 border-white hover:bg-[#335196] duration-300 transition-colors" href="#">
-              Learn More
-            </a>
+            <router-link class="inline-flex px-6 py-3 mt-6 text-white border-2 border-white hover:bg-[#335196] duration-300 transition-colors" to="/gallery">
+              See More
+            </router-link>
           </div>
         </div>
   

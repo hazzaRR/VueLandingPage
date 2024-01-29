@@ -2,7 +2,7 @@
     <div>
         <section class="bg-white">
     <div class="container px-6 py-10 mx-auto">
-        <h1 class="text-2xl font-semibold text-gray-800 lg:text-3xl">FAQ's</h1>
+        <h1 class="text-2xl font-semibold text-[#243458] lg:text-3xl">FAQ's</h1>
 
         <hr class="my-6 border-gray-200">
 

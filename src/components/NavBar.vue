@@ -25,7 +25,7 @@
           </button>
         </div>
   
-        <div :class="[isOpen ? 'opacity-100 ' : 'opacity-0 -translate-x-full ']" class=" absolute lg:static transition-all duration-300 w-full py-12 lg:py-0 left-1/2 lg:opacity-100 lg:translate-x-0 lg:bg-transparent lg:w-auto -translate-x-1/2 top-20 sm:top-24 bg-[#243458] ">
+        <div :class="[isOpen ? 'opacity-100 ' : 'opacity-0 -translate-x-full invisible']" class="absolute lg:visible lg:static transition-all duration-300 w-full py-12 lg:py-0 left-1/2 lg:opacity-100 lg:translate-x-0 lg:bg-transparent lg:w-auto -translate-x-1/2 top-20 sm:top-24 bg-[#243458] ">
           <nav class="flex flex-col items-center space-y-8 lg:flex-row lg:space-y-0 lg:-mx-4">
               <router-link to="/" class="font-medium text-white lg:hover:text-gray-400 lg:mx-4">
                   Home

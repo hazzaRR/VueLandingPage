@@ -5,7 +5,7 @@
         <div>
             <p class="font-medium text-[#243458]">Contact us</p>
 
-            <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl ">Get in touch</h1>
+            <h1 class="mt-2 text-2xl font-semibold text-[#243458] md:text-3xl ">Get in touch</h1>
 
             <p class="mt-3 text-gray-500 ">Our friendly team would love to hear from you.</p>
         </div>
