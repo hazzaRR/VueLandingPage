@@ -7,68 +7,28 @@
         <hr class="my-6 border-gray-200">
 
         <div>
-            <div>
-                <button class="flex items-center focus:outline-none">
-                    <svg class="flex-shrink-0 w-6 h-6 text-[#243458]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
 
-                    <h1 class="mx-4 text-xl text-gray-700">How can I pay for my appointment ?</h1>
-                </button>
-
-                <div class="flex mt-8 md:mx-10">
-                    <span class="border border-[#243458]"></span>
-
-                    <p class="max-w-3xl px-4 text-gray-500">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.
-                    </p>
+            <div v-for="(faq, index) in faqs" :key="index">
+                <div>
+                    <button @click="faq.open = !faq.open" class="flex items-center focus:outline-none">
+                        <svg v-if="!faq.open" xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 text-[#243458]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                        </svg>
+                        <svg v-else class="flex-shrink-0 w-6 h-6 text-[#243458]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
+                        
+                        <h1 class="mx-4 text-xl text-gray-700">{{faq.question}}</h1>
+                    </button>
+                    
+                    <div v-if="faq.open" class="flex mt-8 md:mx-10">
+                        <span class="border border-[#243458]"></span>
+                        
+                        <p class="max-w-3xl px-4 text-gray-500">
+                            {{faq.answer}}
+                        </p>
+                    </div>
                 </div>
-            </div>
-
-            <hr class="my-8 border-gray-200">
-
-            <div>
-                <button class="flex items-center focus:outline-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 text-[#243458]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
-                    </svg>
-
-                    <h1 class="mx-4 text-xl text-gray-700">What can I expect at my first consultation ?</h1>
-                </button>
-            </div>
-
-            <hr class="my-8 border-gray-200">
-
-            <div>
-                <button class="flex items-center focus:outline-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 text-[#243458]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
-                    </svg>
-
-                    <h1 class="mx-4 text-xl text-gray-700">What are your opening hours ?</h1>
-                </button>
-            </div>
-
-            <hr class="my-8 border-gray-200">
-
-            <div>
-                <button class="flex items-center focus:outline-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 text-[#243458]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
-                    </svg>
-
-                    <h1 class="mx-4 text-xl text-gray-700">Do I need a referral ?</h1>
-                </button>
-            </div>
-
-            <hr class="my-8 border-gray-200">
-
-            <div>
-                <button class="flex items-center focus:outline-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 text-[#243458]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
-                    </svg>
-
-                    <h1 class="mx-4 text-xl text-gray-700">Is the cost of the appointment covered by private health insurance ?</h1>
-                </button>
+                
+                <hr class="my-8 border-gray-200">
             </div>
         </div>
     </div>
@@ -78,6 +38,30 @@
 </template>
 
 <script setup>
+import {ref} from 'vue'
+
+const faqs = ref([
+    {
+    question: "How can I pay for my appointment?",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.",
+    open: false,
+    },
+    {
+    question: "How do I book an appointment?",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.",
+    open: false,
+    },
+    {
+    question: "What are your opening hours?",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.",
+    open: false,
+    },
+    {
+    question: "Do I need to do a patch test?",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.",
+    open: false,
+    },
+]);
 
 </script>
 

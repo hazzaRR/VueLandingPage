@@ -54,7 +54,7 @@
         <div class="xl:w-1/2 xl:mx-6">
           <img class="object-cover w-full h-96" src="https://images.unsplash.com/photo-1626838524909-7c584c2266f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
   
-          <h2 class="mt-6 font-serif text-3xl font-medium text-gray-700">Plants Around Us</h2>
+          <h2 class="mt-6 font-serif text-3xl font-medium text-gray-700">Now Accepting Card Payments</h2>
   
           <p class="mt-2 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
   
@@ -66,7 +66,7 @@
             <img class="object-cover w-full h-56 md:h-48 md:mx-4 md:w-80 shrink-0" src="https://images.unsplash.com/photo-1556426356-0fdc8b663467?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1498&q=80" alt="">
   
             <div class="mt-6 md:mx-4 md:mt-0">
-              <h2 class="font-serif text-2xl font-medium text-gray-700 ">Lush Gardens</h2>
+              <h2 class="font-serif text-2xl font-medium text-gray-700 ">New Nail Polish Colours</h2>
     
               <p class="mt-2 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit...</p>
     
@@ -78,7 +78,7 @@
             <img class="object-cover w-full h-56 md:h-48 md:mx-4 md:w-80 shrink-0" src="https://images.unsplash.com/photo-1583470790878-4f4f3811a01f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80" alt="">
   
             <div class="mt-6 md:mx-4 md:mt-0">
-              <h2 class="font-serif text-2xl font-medium text-gray-700 ">Exotic Nature</h2>
+              <h2 class="font-serif text-2xl font-medium text-gray-700 ">Pricing Update</h2>
     
               <p class="mt-2 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit...</p>
     
@@ -90,7 +90,7 @@
             <img class="object-cover w-full h-56 md:h-48 md:mx-4 md:w-80 shrink-0" src="https://images.unsplash.com/photo-1638790491374-a2affccd8c8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
   
             <div class="mt-6 md:mx-4 md:mt-0">
-              <h2 class="font-serif text-2xl font-medium text-gray-700 ">It Starts with Soil</h2>
+              <h2 class="font-serif text-2xl font-medium text-gray-700 ">New Autumn Colours</h2>
     
               <p class="mt-2 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit...</p>
     
