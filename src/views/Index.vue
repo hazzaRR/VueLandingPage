@@ -66,11 +66,11 @@
             <img class="object-cover w-full h-56 md:h-48 md:mx-4 md:w-80 shrink-0" src="https://images.unsplash.com/photo-1556426356-0fdc8b663467?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1498&q=80" alt="">
   
             <div class="mt-6 md:mx-4 md:mt-0">
-              <h2 class="font-serif text-2xl font-medium text-gray-700 ">New Nail Polish Colours</h2>
+              <h2 class="font-serif text-2xl font-medium text-content">New Nail Polish Colours</h2>
     
-              <p class="mt-2 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit...</p>
+              <p class="mt-2 text-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit...</p>
     
-              <p class="mt-4 italic text-gray-600">December 16, 2021</p>
+              <p class="mt-4 italic text-content">December 16, 2021</p>
             </div>
           </div>
   
@@ -78,11 +78,11 @@
             <img class="object-cover w-full h-56 md:h-48 md:mx-4 md:w-80 shrink-0" src="https://images.unsplash.com/photo-1583470790878-4f4f3811a01f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80" alt="">
   
             <div class="mt-6 md:mx-4 md:mt-0">
-              <h2 class="font-serif text-2xl font-medium text-gray-700 ">Pricing Update</h2>
+              <h2 class="font-serif text-2xl font-medium text-content">Pricing Update</h2>
     
-              <p class="mt-2 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit...</p>
+              <p class="mt-2 text-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit...</p>
     
-              <p class="mt-4 italic text-gray-600">November 11, 2021</p>
+              <p class="mt-4 italic text-content">November 11, 2021</p>
             </div>
           </div>
   
@@ -90,11 +90,11 @@
             <img class="object-cover w-full h-56 md:h-48 md:mx-4 md:w-80 shrink-0" src="https://images.unsplash.com/photo-1638790491374-a2affccd8c8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
   
             <div class="mt-6 md:mx-4 md:mt-0">
-              <h2 class="font-serif text-2xl font-medium text-gray-700 ">New Autumn Colours</h2>
+              <h2 class="font-serif text-2xl font-medium text-content">New Autumn Colours</h2>
     
-              <p class="mt-2 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit...</p>
+              <p class="mt-2 text-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit...</p>
     
-              <p class="mt-4 italic text-gray-600">November 3, 2021</p>
+              <p class="mt-4 italic text-content">November 3, 2021</p>
             </div>
           </div>
         </div>

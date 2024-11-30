@@ -46,7 +46,6 @@ export const useProductStore = defineStore('product', () => {
 
     return { 
         productList,
-
      }
   })
 

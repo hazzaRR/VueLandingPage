@@ -5,12 +5,12 @@
 
         <!-- Hamburger Menu Icon -->
         <button
-          class="text-white"
+          class="text-content my-auto"
           @click="isOpen = !isOpen"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="w-8 h-8 text-content"
+            class="w-8 h-8"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -51,7 +51,7 @@
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="w-10 h-10"
+            class="w-10 h-10 text-content"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -66,7 +66,7 @@
         </button>
 
         <nav class="flex flex-col items-center space-y-8">
-          <router-link @click="isOpen = false" v-for="route in routes" :key="route.name" :to="route.link" class="font-medium text-white z-20">
+          <router-link @click="isOpen = false" v-for="route in routes" :key="route.name" :to="route.link" class="font-medium text-neutral z-20">
             {{route.name }}
           </router-link>
         </nav>
