@@ -3,10 +3,10 @@
         <section class="bg-white">
             <div class="container px-6 py-10 mx-auto">
                 <div class="text-center">
-                    <h1 class="text-2xl font-semibold text-[#243458] capitalize lg:text-3xl">Gallery</h1>
-                    <!-- <h1 class="max-w-xl font-serif text-4xl font-medium tracking-wide text-[#243458] capitalize md:text-6xl">Price List</h1> -->
+                    <h1 class="text-2xl font-semibold text-primary capitalize lg:text-3xl">Gallery</h1>
+                    <!-- <h1 class="max-w-xl font-serif text-4xl font-medium tracking-wide text-primary capitalize md:text-6xl">Price List</h1> -->
 
-                    <p class="max-w-lg mx-auto mt-4 text-gray-500">
+                    <p class="max-w-lg mx-auto mt-4 text-content">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis sint autem nesciunt,
                         laudantium
                         quia tempore delect

@@ -6,7 +6,7 @@ import Footer from "./components/Footer.vue";
 
 
 <template>
-  <div>
+  <div class="bg-neutral">
     <NavBar />
     <router-view />
     <Footer />

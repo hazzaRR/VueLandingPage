@@ -5,12 +5,18 @@ import FAQ from '../views/FAQ.vue'
 import Contact from '../views/Contact.vue'
 import PriceList from '../views/PriceList.vue'
 import Gallery from '../views/Gallery.vue'
+import Products from '../views/Products.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: Index,
+  },
+  {
+    path: '/products',
+    name: 'Products',
+    component: Products,
   },
   {
     path: '/faq',

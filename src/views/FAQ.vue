@@ -1,8 +1,8 @@
 <template>
     <div>
-        <section class="bg-white">
+        <section class="bg-neutral">
     <div class="container px-6 py-10 mx-auto">
-        <h1 class="text-2xl font-semibold text-[#243458] lg:text-3xl">FAQ's</h1>
+        <h1 class="text-2xl font-semibold text-primary lg:text-3xl">FAQ's</h1>
 
         <hr class="my-6 border-gray-200">
 
@@ -11,18 +11,18 @@
             <div v-for="(faq, index) in faqs" :key="index">
                 <div>
                     <button @click="faq.open = !faq.open" class="flex items-center focus:outline-none">
-                        <svg v-if="!faq.open" xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 text-[#243458]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg v-if="!faq.open" xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
                         </svg>
-                        <svg v-else class="flex-shrink-0 w-6 h-6 text-[#243458]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
+                        <svg v-else class="flex-shrink-0 w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
                         
-                        <h1 class="mx-4 text-xl text-gray-700">{{faq.question}}</h1>
+                        <h1 class="mx-4 text-xl text-content">{{faq.question}}</h1>
                     </button>
                     
                     <div v-if="faq.open" class="flex mt-8 md:mx-10">
-                        <span class="border border-[#243458]"></span>
+                        <span class="border border-primary"></span>
                         
-                        <p class="max-w-3xl px-4 text-gray-500">
+                        <p class="max-w-3xl px-4 text-content">
                             {{faq.answer}}
                         </p>
                     </div>

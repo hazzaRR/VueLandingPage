@@ -1,18 +1,19 @@
 <template>
     <div>
-        <section class="bg-white">
+        <section class="bg-neutral">
             <div class="container px-6 py-10 mx-auto lg:w-3/4 w-full">
-                <h1 class="max-w-xl font-serif text-4xl font-medium tracking-wide text-[#243458] capitalize md:text-6xl ">
-                    Price List</h1>
+                <h1 class="max-w-xl font-serif text-4xl font-medium tracking-wide text-primary capitalize md:text-6xl">
+                    Price List
+                </h1>
 
                 <hr class="mt-6 border-gray-200">
 
                 <div>
 
                     <div v-for="(treatmentCategory, categoryIndex) in treatments" :key="categoryIndex">
-                        <h1 class="text-2xl mt-6 font-semibold v lg:text-3xl">{{ treatmentCategory.category }}
+                        <h1 class="text-2xl mt-6 font-semibold v lg:text-3xl text-accent">{{ treatmentCategory.category }}
                         </h1>
-                        <hr class="my-6 border-gray-200">
+                        <hr class="my-6 border-contnet">
                         <div v-for="(treatment, index) in treatmentCategory.treatments" :key="index">
                             <div class="flex items-center justify-between focus:outline-none">
                                 <div class="flex items-center focus:outline-none">
@@ -23,9 +24,9 @@
                                             clip-rule="evenodd" />
                                     </svg>
 
-                                    <h2 class="mx-4 text-xl text-gray-700">{{ treatment.name }}</h2>
+                                    <h2 class="mx-4 text-xl text-content">{{ treatment.name }}</h2>
                                 </div>
-                                <h3 class="mx-4 text-xl text-gray-700">£{{ treatment.price.toFixed(2) }}</h3>
+                                <h3 class="mx-4 text-xl text-content">£{{ treatment.price.toFixed(2) }}</h3>
                             </div>
                             <hr class="my-2 border-gray-200">
                         </div>
