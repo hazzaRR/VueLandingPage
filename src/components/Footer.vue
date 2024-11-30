@@ -6,8 +6,7 @@
           <router-link class="flex items-center -mx-2" to="/">
             <Logo class="w-10 h-10 mt-1" :colour="'#fff6f0'"/>
   
-            <div class="mx-2 text-white">
-              <!-- <h3 class="font-medium tracking-widest uppercase">Kates Beauty Room</h3> -->
+            <div class="mx-2 text-white mb-1">
               <h3 class="font-medium tracking-widest uppercase text-content">Moomoo Jewellery</h3>
               <p class="mt-1 text-xs italic leading-3 tracking-wide capitalize">Proident voluptate incididunt sint consectetur nisi</p>
             </div>
