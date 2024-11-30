@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "katesbeautyroomlandingpage": "file:",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5"
   },

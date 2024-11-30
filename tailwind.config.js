@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        tanNimbus: ['Tan Nimbus', 'sans-serif'], // Add Tan Nimbus font
+        tanNimbus: ['tan-nimbus', 'sans-serif'], // Add Tan Nimbus font
       },
     },
     colors: {
@@ -16,7 +16,6 @@ export default {
       'accent': '#ffbdcd',
       'neutral': '#fff6f0',
       'content': '#55433c'
-
     },
   },
   plugins: [],

@@ -27,11 +27,11 @@
         <!-- Title -->
         <div class="flex flex-col items-center">
           <router-link to="/">
-            <div class="text-gray-700 flex flex-col items-center">
-              <h3 class="uppercase tracking-widest text-3xl md:text-5xl text-content font-bold">
+            <div class="text-content flex flex-col items-center">
+              <h3 class="uppercase tracking-widest text-3xl md:text-6xl text-content font-black font-tanNimbus">
                 MooMoo
               </h3>
-              <p class="uppercase text-md md:text-xl italic text-content font-light">Jewellery</p>
+              <p class="uppercase text-md md:text-xl italic text-neutral font-light font-tanNimbus">Jewellery</p>
             </div>
           </router-link>
         </div>
@@ -42,7 +42,7 @@
 
       <!-- Dropdown Menu -->
       <div
-        :class="[isOpen ? 'opacity-100' : 'opacity-0 -translate-x-full invisible', `absolute`, `transition-all`, `duration-300`, `w-full`, `py-12`, `left-1/2`, `-translate-x-1/2`, `top-20`,  'bg-primary', 'section-with-circles', 'z-10']"
+        :class="[isOpen ? 'opacity-100' : 'opacity-0 -translate-x-full invisible', `absolute`, `transition-all`, `duration-300`, `w-full`, `py-12`, `left-1/2`, `-translate-x-1/2`, `top-10`,  'bg-primary', 'section-with-circles', 'z-10']"
       >
         <!-- Close Button -->
         <button
