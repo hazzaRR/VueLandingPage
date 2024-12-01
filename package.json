@@ -1,5 +1,5 @@
 {
-  "name": "katesbeautyroomlandingpage",
+  "name": "vue",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +11,7 @@
   "dependencies": {
     "katesbeautyroomlandingpage": "file:",
     "pinia": "^2.2.8",
-    "vue": "^3.3.11",
+    "vue": "file:",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {

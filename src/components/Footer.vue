@@ -8,7 +8,7 @@
   
             <div class="mx-2 text-white mb-1">
               <h3 class="font-medium tracking-widest uppercase text-content">Moomoo Jewellery</h3>
-              <p class="mt-1 text-xs italic leading-3 tracking-wide capitalize text-content">Proident voluptate incididunt sint consectetur nisi</p>
+              <p class="text-xs italic leading-3 tracking-wide capitalize text-content">Waterproof💧Tarnish Free ✨</p>
             </div>
           </router-link>
   
@@ -17,9 +17,9 @@
           </p>
         </div>
   
-        <div class="flex flex-col space-y-4">
+        <!-- <div class="flex flex-col space-y-4">
           <router-link v-for="route in routes" :key="route.name" :to="route.link" class="text-neutral hover:text-content">{{route.name}}</router-link>
-        </div>
+        </div> -->
         
         <div>
           <p class="font-medium text-neutral capitalize">Connect</p>

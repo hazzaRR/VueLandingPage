@@ -25,13 +25,13 @@
         </button>
 
         <!-- Title -->
-        <div class="flex flex-col items-center">
+        <div class="flex flex-col items-center mt-8">
           <router-link to="/">
             <div class="text-content flex flex-col items-center">
-              <h3 class="uppercase tracking-widest text-3xl md:text-6xl text-content font-black font-tanNimbus">
+              <h3 class="uppercase tracking-wide text-3xl md:text-6xl text-content font-light font-tanNimbus">
                 MooMoo
               </h3>
-              <p class="uppercase text-md md:text-xl italic text-neutral font-light font-tanNimbus">Jewellery</p>
+              <p class="uppercase text-md md:text-xl text-content font-medium">Jewellery</p>
             </div>
           </router-link>
         </div>
