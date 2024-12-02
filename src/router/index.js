@@ -5,7 +5,7 @@ import FAQ from '../views/FAQ.vue'
 import Contact from '../views/Contact.vue'
 import PriceList from '../views/PriceList.vue'
 import Gallery from '../views/Gallery.vue'
-import Products from '../views/Products.vue'
+import Shop from '../views/Shop.vue'
 
 const routes = [
   {
@@ -14,9 +14,9 @@ const routes = [
     component: Index,
   },
   {
-    path: '/products',
-    name: 'Products',
-    component: Products,
+    path: '/shop',
+    name: 'Shop',
+    component: Shop,
   },
   {
     path: '/faq',

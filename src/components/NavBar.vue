@@ -1,7 +1,7 @@
 <template>
   <div>
     <header :class="['relative', 'bg-primary', 'section-with-circles']">
-      <div class="container px-6 py-6 h-64 mx-auto flex items-center justify-between">
+      <div class="container px-6 py-6 sm:32 md:h-64 mx-auto flex items-center justify-between">
 
         <!-- Hamburger Menu Icon -->
         <button
@@ -102,4 +102,19 @@ const isOpen = ref(false);
   background: radial-gradient(circle, #ffa889 80%, transparent 30%);
   background-size: 60px; /* Matches the size of the circles */
 }
+
+@media only screen and (max-width: 600px) {
+  .section-with-circles::after {
+  content: '';
+  position: absolute;
+  bottom: -30px; /* Adjusted to place the circles fully below the parent */
+  left: 0;
+  right: 0;
+  height: 60px; /* Increased height to fit the full diameter of the circles */
+  background: radial-gradient(circle, #ffa889 60%, transparent 30%);
+  background-size: 30px; /* Matches the size of the circles */
+}
+}
+
+
 </style>

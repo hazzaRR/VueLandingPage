@@ -6,28 +6,28 @@
       <h1
         class="max-w-xl font-serif text-4xl font-medium tracking-wide text-primary capitalize md:text-6xl"
       >
-        Beauty awaits
+        We're a Match made in heaven 
       </h1>
 
-      <p class="max-w-lg mt-4 text-content">
+      <!-- <p class="max-w-lg mt-4 text-content">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. At magnam
         voluptatibus perferendis odit optio.
-      </p>
+      </p> -->
 
       <div class="mt-6 sm:flex sm:items-center">
         <router-link
-          to="/price-list"
+          to="/shop"
           class="bg-primary hover:bg-primary/80 duration-300 transition-colors border-2 border-primary px-6 block text-center py-3 uppercase text-sm font-bold leading-4 tracking-widest text-content"
         >
-          Price List
+          Shop Now
         </router-link>
 
-        <router-link
+        <!-- <router-link
           to="/contact"
           class="border-2 text-sm duration-300 transition-colors bg-primary hover:bg-primary/80 font-bold leading-4 mt-4 sm:mt-0 tracking-widest text-content sm:mx-4 border-primary px-6 block text-center py-3 uppercase"
         >
           Contact
-        </router-link>
+        </router-link> -->
       </div>
     </div>
 
@@ -39,6 +39,12 @@
         src="https://images.unsplash.com/photo-1531163859947-fa484f6eacd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
         alt="main page"
       />
+              <router-link
+          to="/shop"
+          class="bg-primary hover:bg-primary/80 duration-300 transition-colors border-2 border-primary px-6 block text-center py-3 uppercase text-sm font-bold leading-4 tracking-widest text-content"
+        >
+          Shop Now
+        </router-link>
     </div>
   </section>
 
@@ -57,7 +63,7 @@
           <h3
             class="font-serif text-2xl text-content capitalize md:text-4xl lg:text-5xl"
           >
-            Discover your beauty
+            Get to know MooMoo
           </h3>
 
           <p class="mt-4 text-content">
@@ -67,31 +73,37 @@
             perferendis ab porro magnam!
           </p>
 
-          <router-link
+          <!-- <router-link
             class="inline-flex px-6 py-3 mt-6 text-white border-2 border-white hover:bg-white duration-300 transition-colors"
             to="/gallery"
           >
             See More
-          </router-link>
+          </router-link> -->
         </div>
       </div>
 
-      <img
+      <!-- <img
         class="order-1 object-cover lg:order-2 w-ful h-72 lg:h-96 lg:mt-12"
         src="https://images.unsplash.com/photo-1610462275440-4ea0976f46f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
         alt=""
-      />
+      /> -->
     </div>
   </section>
 
   <section class="container px-6 py-12 mx-auto lg:py-16">
     <h3
-      class="font-serif text-3xl text-content capitalize md:text-4xl lg:text-5xl"
+      class="font-serif text-3xl text-primary capitalize md:text-4xl lg:text-5xl"
     >
-      News & Updates
+       Updates
     </h3>
 
-    <div class="mt-8 xl:-mx-6 xl:flex">
+
+    <div class="relative flex flex-row justify-around items-center flex-wrap" ref="embedContainer">
+    <InstagramPost :embedUrl="'https://www.instagram.com/p/DC4niRIt8wD/'" />
+    <InstagramPost :embedUrl="'https://www.instagram.com/p/DCws3zrNOpC/'" />
+    </div>
+
+    <!-- <div class="mt-8 xl:-mx-6 xl:flex">
       <div class="xl:w-1/2 xl:mx-6">
         <img
           class="object-cover w-full h-96"
@@ -133,6 +145,7 @@
             <p class="mt-4 italic text-content">December 16, 2021</p>
           </div>
         </div>
+        
 
         <div class="md:-mx-4 md:flex md:items-center">
           <img class="object-cover w-full h-56 md:h-48 md:mx-4 md:w-80 shrink-0" src="https://images.unsplash.com/photo-1583470790878-4f4f3811a01f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80" alt="">
@@ -144,7 +157,6 @@
     
               <p class="mt-4 italic text-content">November 11, 2021</p>
             </div>
-            <!-- <InstagramPost :embedUrl="'https://www.instagram.com/p/DC4niRIt8wD/'" /> -->
         </div>
 
         <div class="md:-mx-4 md:flex md:items-center">
@@ -168,10 +180,18 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
 </template>
 
 <script setup>
 import InstagramPost from '../components/InstagramPost.vue';
 </script>
+
+<style scoped>
+.embed-container {
+  max-width: 500px;
+  max-height: 500px !important;
+  margin: auto;
+}
+</style>
